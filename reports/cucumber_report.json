@@ -1,0 +1,144 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-item;complete-checkout-process",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Complete checkout process",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 477293900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website",
+            "match": {
+              "location": "steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3359626699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login as \"standard_user\" with password \"secret_sauce\"",
+            "match": {
+              "location": "steps\\checkout.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224699200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "location": "steps\\checkout.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159725399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I navigate to the cart",
+            "match": {
+              "location": "steps\\checkout.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67304500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see \"Sauce Labs Backpack\" in the cart",
+            "match": {
+              "location": "steps\\checkout.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27532799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59049399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I fill in checkout details with \"John\", \"Doe\", \"12345\"",
+            "match": {
+              "location": "steps\\checkout.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134420299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should complete the checkout process",
+            "match": {
+              "location": "steps\\checkout.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63240200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88733299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-item",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout Item",
+    "tags": [],
+    "uri": "features\\checkout.feature"
+  }
+]
